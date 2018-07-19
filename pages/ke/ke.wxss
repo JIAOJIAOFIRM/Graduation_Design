@@ -1,0 +1,156 @@
+/* pages/ke/ke.wxss */
+.body{
+  font-size: 16px;
+  background: #f0f0f0
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1
+}
+.head{
+  height: 240px;
+  width: 100%;
+  overflow: hidden
+}
+.slide-image{
+  height: 240px;
+  width:100%;
+  
+}
+swiper{
+  height: 240px
+}
+.priceinform{
+  background: #fff;
+  padding: 10px
+}
+.price{
+  color: #ff2400;
+  font-size: 14px;
+}
+.price .pricenum{
+  font-size: 1.143em;
+  display: inline
+}
+.originalprice{
+  color: #666;
+  font-size: 0.8125em
+}
+.originalprice .pricenum{
+  text-decoration: line-through;
+  display:inline
+}
+.society{
+  color: #999;
+  margin-top: 10px;
+  font-size: 0.8125em
+}
+.productbox{
+  margin-top: 5px;
+}
+.productname{
+  color: #000;
+  font-size: 1em;
+  width: 85%;
+  float: left
+}
+.share{
+  float:right;
+  width:15%;
+  background:#f0f0f0;
+  border-radius:30px;
+  text-align:center;
+  font-size:0.8125em;
+  height:20px;
+  line-height:20px;
+  color:#999;
+}
+.otherinform{
+  margin-top: 5px;
+  color: #999;
+}
+.otherinform>view{
+  width: 33%;
+  float: left;
+  font-size: 0.75em
+}
+.otherinform>view:last-child{
+  text-align: right
+}
+.otherinform>view:nth-child(2){
+  text-align: center
+}
+.tickerbox{
+  margin-top: 10px;
+  padding: 0 10px;
+  background: #fff;
+  overflow: hidden
+}
+.ticker{
+  padding: 10px 0;
+  width: 100%;
+  overflow: hidden;
+  font-size: 0.875em
+}
+.tickername{
+  float: left;
+  width: 15%;
+  color: #999
+}
+.tickertitle{
+  float: left;
+  width: 80%;
+  overflow: hidden;
+}
+.rightarrow{
+  float: right;
+  width: 5%;
+  text-align: right
+}
+.rightarrow image{
+  width:15px;
+  height:15px;
+}
+.fixbottom{
+  position: fixed;
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  background: #fff;
+  bottom: 0
+}
+.fixbottom>view{
+  float: left
+}
+.store{
+  width: 12%;
+  font-size: 0.7em;
+  text-align: center
+}
+.shopcar,.buybtn{
+  width: 30%;
+  font-size: 0.875em;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+}
+.store>image{
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin:2px auto;
+}
+.shopcar{
+    border-radius:50px 0 0 50px;
+    background:-webkit-linear-gradient(left,orangered,orange);/* Safari 5.1 - 6.0 */
+    background:-o-linear-gradient(left,orangered,orange);/* Opera 11.1 - 12.0 */
+    background:-moz-linear-gradient(left,orangered,orange);/* Firefox 3.6 - 15 */
+    background:linear-gradient(to left,orangered,orange);/* 标准*/
+}
+.buybtn{
+    border-radius:0 50px 50px 0;
+    background:-webkit-linear-gradient(right,orangered,orange);/* Safari 5.1 - 6.0 */
+    background:-o-linear-gradient(right,orangered,orange);/* Opera 11.1 - 12.0 */
+    background:-moz-linear-gradient(right,orangered,orange);/* Firefox 3.6 - 15 */
+    background:linear-gradient(to right,orangered,orange);/* 标准*/
+}
